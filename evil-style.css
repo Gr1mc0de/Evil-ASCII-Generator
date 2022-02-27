@@ -1,0 +1,205 @@
+html {
+    background-color: #000;
+    filter: saturate(151%);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 155px;
+}
+
+header a,
+#pentagram {
+    font-size: 3.5px;
+    text-decoration: none;
+    animation: pentagram;
+    animation-duration: 13s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pentagram {
+    0% {color:#ca1717}
+    50% {color:#610b0b}
+    100% {color:#ca1717}
+}
+
+header a:hover {
+    filter: brightness(131%);
+}
+
+main {
+    height: 555px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+#summon-btn {
+    background: url("i/flames.png");
+    background-size: cover;
+    background-position: 90% 50%;
+    background-color: #ca1717;
+    border-radius: 6px;
+    animation: summon;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes summon {
+    0% {background-color:#ca1717}
+    50% {background-color:#f31a1a}
+    100% {background-color:#ca1717}
+}
+
+#summon-btn:hover #summon {
+    color: #fc0000;
+}
+
+#summon {
+    font-size: 3px;
+}
+
+#pentagram {
+    font-size: 11px;
+    margin-bottom: 13px;
+}
+
+#generator {
+    font-size: 2px;
+    transition: all 1.9s linear 0.1s;
+}
+
+#invisible {
+    display: none;
+}
+
+@keyframes evil {
+    0% {position: relative; bottom: 11px;}
+    50% {position: relative; bottom: 0px;}
+    100% {position: relative; bottom: 11px;}
+}
+
+@keyframes skeleton {
+    0% {position: relative; top: 177px;}
+    50% {position: relative; top: 166px;}
+    100% {position: relative; top: 177px;}
+}
+
+@keyframes skelet0n {
+    0% {position: relative; top: 0px; font-size: 2px;}
+    50% {position: relative; top: 200px; font-size: 7px;}
+    100% {position: relative; top: 0px; font-size: 2px;}
+}
+
+@keyframes gate-keeper {
+    0% {position: relative; top: 131px;}
+    50% {position: relative; top: 121px;}
+    100% {position: relative; top: 131px;}
+}
+
+@keyframes demon-bitch {
+    0% {position: relative; top: 111px;}
+    50% {position: relative; top: 99px;}
+    100% {position: relative; top: 111px;}
+}
+
+@keyframes ghost {
+    0% {position: relative; top: 0px; font-size: 9px;}
+    100% {position: relative; top: 222px; font-size: 19px;}
+}
+
+@keyframes gh0st {
+    0% {position: relative; top: 99px; font-size: 2px;}
+    100% {position: relative; top: 255px; font-size: 15px;}
+}
+
+@keyframes brains {
+    0% {position: relative; top: 200px; font-size: 6px;}
+    50% {position: relative; top: 0px; font-size: 2px;}
+    100% {position: relative; top: 200px; font-size: 6px;}
+}
+
+@keyframes fat {
+    0% {position: relative; top: 266px; font-size: 8px;}
+    50% {position: relative; top: 255px; font-size: 8.4px;}
+    100% {position: relative; top: 266px; font-size: 8px;}
+}
+
+@keyframes fuck {
+    0% {position: relative; top: 144px;}
+    50% {position: relative; top: 133px;}
+    100% {position: relative; top: 144px;}
+}
+
+@keyframes frankenstein {
+    0% {position: relative; top: 0px; font-size: 2px;}
+    50% {position: relative; top: 200px; font-size: 15px;}
+    100% {position: relative; top: 0px; font-size: 2px;}
+}
+
+@keyframes shadow {
+    0% {position: relative; top: 0px; font-size: 1px;}
+    50% {position: relative; top: 200px; font-size: 6px;}
+    100% {position: relative; top: 0px; font-size: 1px;}
+}
+
+@keyframes jigsaw {
+    0% {position: relative; top: 0px; font-size: 2px;}
+    50% {position: relative; top: 200px; font-size: 5px;}
+    100% {position: relative; top: 0px; font-size: 2px;}
+}
+
+@keyframes bat {
+    0% {position: relative; top: 0px; font-size: 2px;}
+    50% {position: relative; top: 0px; font-size: 8px;}
+    100% {position: relative; top: 0px; font-size: 2px;}
+}
+
+@keyframes dragon {
+    0% {position: relative; top: 22px; font-size: 7px; color:#610b0b;}
+    50% {position: relative; top: 33px; font-size: 9px; color:#ca1717;}
+    100% {position: relative; top: 22px; font-size: 7px; color:#610b0b;}
+}
+
+@keyframes trip {
+    0% {position: relative; top: 11px; color:#ca1717;}
+    25% {position: relative; top: 16px; color:violet;}
+    50% {position: relative; top: 22px; color:green;}
+    75% {position: relative; top: 26px; color:violet;}
+    100% {position: relative; top: 11px; color:#ca1717;}
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 155px;
+    width: 345px;
+    margin: 13px auto;
+    text-align: center;
+    font-family: monospace;
+    font-size: 9px;
+    animation: pentagram;
+    animation-duration: 13s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+#social-media {
+    font-size: 11px;
+}
+
+#social-media a {
+    animation: pentagram;
+    animation-duration: 13s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+#social-media a:hover {
+    filter: brightness(155%);
+}
