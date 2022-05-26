@@ -87,7 +87,7 @@ function summonEvil() {
         generator.style.animationIterationCount = "infinite"
         generator.style.filter = "blur(0px)";
         generator.style.opacity = "100%";
-    } else if (generator.innerHTML === skeleton.innerHTML || generator.innerHTML === gargoyle.innerHTML || generator.innerHTML === jesus.innerHTML || generator.innerHTML === devil.innerHTML || generator.innerHTML === alien.innerHTML || generator.innerHTML === rapeDungeon.innerHTML || generator.innerHTML === zodiac.innerHTML || generator.innerHTML === cerberus.innerHTML || generator.innerHTML === zomby.innerHTML || generator.innerHTML === warrior.innerHTML || generator.innerHTML === witchesBrew.innerHTML || generator.innerHTML === electricGuitar.innerHTML) {
+    } else if (generator.innerHTML === skeleton.innerHTML || generator.innerHTML === gargoyle.innerHTML || generator.innerHTML === jesus.innerHTML || generator.innerHTML === devil.innerHTML || generator.innerHTML === alien.innerHTML || generator.innerHTML === dungeon.innerHTML || generator.innerHTML === zodiac.innerHTML || generator.innerHTML === cerberus.innerHTML || generator.innerHTML === zomby.innerHTML || generator.innerHTML === warrior.innerHTML || generator.innerHTML === witchesBrew.innerHTML || generator.innerHTML === electricGuitar.innerHTML) {
         if (generator.innerHTML === cerberus.innerHTML || generator.innerHTML === zomby.innerHTML) {
             generator.style.fontSize = "15px";
         } else if (generator.innerHTML === witchesBrew.innerHTML) {
