@@ -63,12 +63,12 @@ let deadMan = document.getElementById("dead-man");
 let spectre = document.getElementById("spectre");
 let shadowMan = document.getElementById("shadow-man");
 let captive = document.getElementById("captive");
-let rapeDungeon = document.getElementById("rape-dungeon");
+let dungeon = document.getElementById("dungeon");
 let jigsaw = document.getElementById("jigsaw");
 let dragon = document.getElementById("dragon");
 let witchesBrew = document.getElementById("witches-brew");
 
-let asciiDemons = [evil, evil, goatHead, skeleton, skelet0n, orc, gateKeeper, warrior, pyro, pyr0, demonBitch, gargoyle, ghost, gh0st, ghostFace, reaper, r34p3r, darkMask, d4rkM4sk, wolf, bat, shrooms, evilMushroom, trip, brains, fatGuy, evilFatGuy, bitch, evilBitch, evilEye, zodiac, psychoBitch, ev1lB1tch, skull, skvll, fuck, lesbians, jesus, cerberus, burningSkull, electricGuitar, doom, devil, weed, bug, spaceInvader, alien, al13n, anubis, illuminati, bitcoin, troll, tr0ll, tr011, scaryFace, cyclops, frankenstein, zomby, hangMan, deadMan, spectre, shadowMan, captive, rapeDungeon, jigsaw, dragon, witchesBrew];
+let asciiDemons = [evil, evil, goatHead, skeleton, skelet0n, orc, gateKeeper, warrior, pyro, pyr0, demonBitch, gargoyle, ghost, gh0st, ghostFace, reaper, r34p3r, darkMask, d4rkM4sk, wolf, bat, shrooms, evilMushroom, trip, brains, fatGuy, evilFatGuy, bitch, evilBitch, evilEye, zodiac, psychoBitch, ev1lB1tch, skull, skvll, fuck, lesbians, jesus, cerberus, burningSkull, electricGuitar, doom, devil, weed, bug, spaceInvader, alien, al13n, anubis, illuminati, bitcoin, troll, tr0ll, tr011, scaryFace, cyclops, frankenstein, zomby, hangMan, deadMan, spectre, shadowMan, captive, dungeon, jigsaw, dragon, witchesBrew];
 let randomNumber = Math.ceil(Math.random() * 66);
 
 function summonEvil() {
@@ -96,7 +96,7 @@ function summonEvil() {
             generator.style.fontSize = "6px";
         }
         generator.style.color = "#ca1717";
-        if (generator.innerHTML === jesus.innerHTML || generator.innerHTML === rapeDungeon.innerHTML) {
+        if (generator.innerHTML === jesus.innerHTML || generator.innerHTML === dungeon.innerHTML) {
             generator.style.transform = "rotate(-180deg)";
         } else {
             generator.style.transform = "rotateY(0)";
